@@ -1,0 +1,5 @@
+c:\Users\Simon\documents\visual studio 2013\Projects\jTech\jTech.DesignPatterns\bin\Debug\jTech.DesignPatterns.dll
+c:\Users\Simon\documents\visual studio 2013\Projects\jTech\jTech.DesignPatterns\bin\Debug\jTech.DesignPatterns.pdb
+c:\Users\Simon\documents\visual studio 2013\Projects\jTech\jTech.DesignPatterns\obj\Debug\jTech.DesignPatterns.csprojResolveAssemblyReference.cache
+c:\Users\Simon\documents\visual studio 2013\Projects\jTech\jTech.DesignPatterns\obj\Debug\jTech.DesignPatterns.dll
+c:\Users\Simon\documents\visual studio 2013\Projects\jTech\jTech.DesignPatterns\obj\Debug\jTech.DesignPatterns.pdb

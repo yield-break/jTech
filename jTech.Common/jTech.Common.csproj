@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4657050-F0FC-450F-BE9F-9938BB3AEE60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jTech.Common</RootNamespace>
+    <AssemblyName>jTech.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\..\binaries\Microsoft\Reactive\net45\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\..\binaries\Microsoft\Reactive\net45\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\..\binaries\Microsoft\Reactive\net45\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caching\ExpiringCache.cs" />
+    <Compile Include="Caching\ExpiringCachedItem.cs" />
+    <Compile Include="Collection\TimeSeries.cs" />
+    <Compile Include="Communication\WcfChannelFactory.cs" />
+    <Compile Include="Core\ApplicationConfiguration.cs" />
+    <Compile Include="Core\CompositionContainerFactory.cs" />
+    <Compile Include="Core\IConfiguration.cs" />
+    <Compile Include="Core\OneTimeAction.cs" />
+    <Compile Include="Core\OneTimeFunc.cs" />
+    <Compile Include="Extension\EnumerableExtension.cs" />
+    <Compile Include="IO\FileWriter.cs" />
+    <Compile Include="Logging\Instance\ConsoleLogger.cs" />
+    <Compile Include="Logging\Instance\EmergencyLogger.cs" />
+    <Compile Include="Logging\ILogFactory.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Instance\FileLogger.cs" />
+    <Compile Include="Logging\Instance\ServiceLogFactory.cs" />
+    <Compile Include="Logging\LogCatagory.cs" />
+    <Compile Include="Logging\LogFactory.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Mediation\IQueueable.cs" />
+    <Compile Include="Mediation\QueueableMessage.cs" />
+    <Compile Include="Mediation\QueuingModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reactive\EventPublisher.cs" />
+    <Compile Include="Reactive\Events\DayRollRequest.cs" />
+    <Compile Include="Reactive\Events\ServiceRequest.cs" />
+    <Compile Include="Reactive\PeriodicProcessScheduler.cs" />
+    <Compile Include="Threading\LongRunningTask.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

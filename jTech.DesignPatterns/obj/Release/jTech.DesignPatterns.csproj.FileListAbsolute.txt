@@ -1,0 +1,5 @@
+C:\code\dev\jTech\jTech.DesignPatterns\bin\Release\jTech.DesignPatterns.dll
+C:\code\dev\jTech\jTech.DesignPatterns\bin\Release\jTech.DesignPatterns.pdb
+C:\code\dev\jTech\jTech.DesignPatterns\obj\Release\jTech.DesignPatterns.dll
+C:\code\dev\jTech\jTech.DesignPatterns\obj\Release\jTech.DesignPatterns.pdb
+C:\code\dev\jTech\jTech.DesignPatterns\obj\Release\jTech.DesignPatterns.csprojResolveAssemblyReference.cache

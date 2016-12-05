@@ -1,0 +1,11 @@
+C:\code\dev\jTech\jTech.Test\bin\Release\jTech.Test.exe.config
+C:\code\dev\jTech\jTech.Test\bin\Release\jTech.Test.exe
+C:\code\dev\jTech\jTech.Test\bin\Release\jTech.Test.pdb
+C:\code\dev\jTech\jTech.Test\bin\Release\jTech.Common.dll
+C:\code\dev\jTech\jTech.Test\bin\Release\jTech.Service.dll
+C:\code\dev\jTech\jTech.Test\obj\Release\jTech.Test.exe
+C:\code\dev\jTech\jTech.Test\obj\Release\jTech.Test.pdb
+C:\code\dev\jTech\jTech.Test\obj\Release\jTech.Test.csprojResolveAssemblyReference.cache
+F:\code\Dev\jTech\jTech.Test\bin\Release\jTech.Test.exe.config
+F:\code\Dev\jTech\jTech.Test\obj\Release\jTech.Test.exe
+F:\code\Dev\jTech\jTech.Test\obj\Release\jTech.Test.pdb

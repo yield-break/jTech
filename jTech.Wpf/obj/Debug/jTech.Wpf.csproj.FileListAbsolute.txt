@@ -1,0 +1,7 @@
+C:\code\dev\jTech\jTech.Wpf\bin\Debug\jTech.Wpf.dll
+C:\code\dev\jTech\jTech.Wpf\bin\Debug\jTech.Wpf.pdb
+C:\code\dev\jTech\jTech.Wpf\obj\Debug\jTech.Wpf.Properties.Resources.resources
+C:\code\dev\jTech\jTech.Wpf\obj\Debug\jTech.Wpf.csproj.GenerateResource.Cache
+C:\code\dev\jTech\jTech.Wpf\obj\Debug\jTech.Wpf.dll
+C:\code\dev\jTech\jTech.Wpf\obj\Debug\jTech.Wpf.pdb
+C:\code\dev\jTech\jTech.Wpf\obj\Debug\jTech.Wpf.csprojResolveAssemblyReference.cache

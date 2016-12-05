@@ -1,0 +1,12 @@
+C:\code\dev\jTech\jTech.Service\obj\Release\jTech.Service.Boot.ServiceInstance.resources
+C:\code\dev\jTech\jTech.Service\obj\Release\jTech.Service.csproj.GenerateResource.Cache
+C:\code\dev\jTech\jTech.Service\bin\Release\jTech.Service.dll
+C:\code\dev\jTech\jTech.Service\bin\Release\jTech.Service.pdb
+C:\code\dev\jTech\jTech.Service\bin\Release\jTech.Common.dll
+C:\code\dev\jTech\jTech.Service\bin\Release\System.Reactive.Core.dll
+C:\code\dev\jTech\jTech.Service\bin\Release\System.Reactive.Interfaces.dll
+C:\code\dev\jTech\jTech.Service\bin\Release\System.Reactive.Linq.dll
+C:\code\dev\jTech\jTech.Service\bin\Release\jTech.Common.pdb
+C:\code\dev\jTech\jTech.Service\obj\Release\jTech.Service.csprojResolveAssemblyReference.cache
+C:\code\dev\jTech\jTech.Service\obj\Release\jTech.Service.dll
+C:\code\dev\jTech\jTech.Service\obj\Release\jTech.Service.pdb

@@ -1,0 +1,8 @@
+C:\code\dev\jTech\jTech.Common\bin\Release\jTech.Common.dll
+C:\code\dev\jTech\jTech.Common\bin\Release\jTech.Common.pdb
+C:\code\dev\jTech\jTech.Common\bin\Release\System.Reactive.Core.dll
+C:\code\dev\jTech\jTech.Common\bin\Release\System.Reactive.Interfaces.dll
+C:\code\dev\jTech\jTech.Common\bin\Release\System.Reactive.Linq.dll
+C:\code\dev\jTech\jTech.Common\obj\Release\jTech.Common.dll
+C:\code\dev\jTech\jTech.Common\obj\Release\jTech.Common.pdb
+C:\code\dev\jTech\jTech.Common\obj\Release\jTech.Common.csprojResolveAssemblyReference.cache
